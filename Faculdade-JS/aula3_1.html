@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Estruturas de Repetiçao</title>
+</head>
+
+<body>
+</body>
+<script type="text/javascript">
+    let numeros = []; 
+    numeros [0] = solicitarPrimeiroNumero(); 
+    numeros [1] = solicitarSegundoNumero (); 
+    let resultadoDivisao = divida (numeros);
+    alert('O resultado da divisão é igual a : ' + resultadoDivisao);
+
+    /* Função Javascript
+    Está função não recebe parâmetros
+    */
+function solicitarPrimeiroNumero () {
+    let numero1 = prompt('Insira o primeiro número: ');
+    if(numero1 < 0) {
+        alert('O número precisa ser inteiro e positivo');
+        return solicitarPrimeiroNumero();
+    } else {
+        return numero1
+    }
+}
+function solicitarSegundoNumero () {
+    let numero2 = prompt('Insira o segundo número: ');
+    if(numero2 < 0) {
+        alert('O número precisa ser inteiro e positivo');
+        return solicitarSegundoNumero();
+    } else {
+        return numero2
+    }
+}
+
+function divida (numeros) {
+    let resultado = 0;
+    resultado = numeros[0] / numeros[1];
+    return resultado;
+}
+</script>
+</html>
