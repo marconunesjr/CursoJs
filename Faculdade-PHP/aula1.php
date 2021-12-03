@@ -13,7 +13,7 @@ $flagLiguagemScript = true;
  </body>
  </html>
 
- /*
+/*
  Variáveis em PHP
 As variáveis são um dos principais recursos em uma linguagem de programação. 
 Em PHP, a definição de uma variável é feita com a utilização do símbolo “$” seguido do nome da mesma. 
@@ -23,7 +23,7 @@ Em PHP, diferentemente de linguagens como Java, não é necessário informar o t
 Tal fato concede ao PHP a característica de linguagem fracamente tipada. 
 Com isso, não há diferenças no momento da criação de variáveis para receber dados numéricos,
  textuais, alfanuméricos, entre outros.
- */
+*/
 
 <?php
 
