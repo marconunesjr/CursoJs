@@ -1,0 +1,14 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "primeiro projeto curso",
+  "main": "outro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
