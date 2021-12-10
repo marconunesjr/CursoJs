@@ -32,3 +32,11 @@ $instrucaoSQL = "Select * From Usuario Where login = '' OR true = true;/* And pa
 //Destruindo o objecto statement e fechando a conexão da instrução SQL acima
 $stmt = null;
 $dsn = null;
+
+<?php
+//...
+
+$stmt = $dsn->prepare("Select * From Usuario Where login = ? And password = ?");
+$stmt->execute([$login, $pswd]);
+
+//...
