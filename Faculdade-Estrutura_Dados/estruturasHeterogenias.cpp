@@ -14,33 +14,32 @@ int main()
 {
     setlocale(LC_ALL, "Portugueses");
 
-    Coordenada pontoA;
-    Coordenada pontoB;
-    Coordenada pontoC;
+    Coordenada ponto [3];
+   
 
-    pontoA.x = 10;
-    pontoA.y = 20;
-    pontoA.z = 50;
+    ponto [0].x = 10;
+    ponto [0].y = 20;
+    ponto [0].z = 50;
 
-    cout << "Coordenada x: " << pontoA.x << endl;
-    cout << "Coordenada y: " << pontoA.y << endl;
-    cout << "Coordenada z: " << pontoA.z << endl;
+    cout << "Ponto A - x: " << ponto [0].x << endl;
+    cout << "Ponto A - y: " << ponto [0].y << endl;
+    cout << "Ponto A - z: " << ponto [0].z << endl << endl;
 
-    pontoB.x = 100;
-    pontoB.y = 200;
-    pontoB.z = 500;
+    ponto [1].x = 100;
+    ponto [1].y = 200;
+    ponto [1].z = 500;
 
-    cout << "Coordenada x: " << pontoB.x << endl;
-    cout << "Coordenada y: " << pontoB.y << endl;
-    cout << "Coordenada z: " << pontoB.z << endl;
+    cout << "Ponto B - x: " << ponto [1].x << endl;
+    cout << "Ponto B - y: " << ponto [1].y << endl;
+    cout << "Ponto B - z: " << ponto [1].z << endl << endl;
 
-    pontoC.x = 16;
-    pontoC.y = 25;
-    pontoC.z = 57;
+    ponto [2].x = 16;
+    ponto [2].y = 25;
+    ponto [2].z = 57;
 
-    cout << "Coordenada x: " << pontoC.x << endl;
-    cout << "Coordenada y: " << pontoC.y << endl;
-    cout << "Coordenada z: " << pontoC.z << endl;
+    cout << "Ponto C - x: " << ponto [2].x << endl;
+    cout << "Ponto C - y: " << ponto [2].y << endl;
+    cout << "Ponto C - z: " << ponto [2].z << endl << endl;
 
     system("pause");
     return 0;
